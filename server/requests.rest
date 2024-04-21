@@ -1,0 +1,20 @@
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "username": "max-mustermann",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "username": "max_mustermann",
+    "password": "123456"
+}
+
+###
+GET http://localhost:3000/shopping-list
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDI4YmQwNjA4ZDUxMjE1OWFmOTEyMSIsInVzZXJuYW1lIjoiaG9tZXIiLCJpYXQiOjE3MTE0NTU3Njh9.j263_vBLke-z3U5ApveQm9CFWWwbTeua7M1Ytd0r28o

@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 50;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem; /* 16px */
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem /* 24px */;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+}
+
+.links-container {
+  display: flex;
+  gap: 1rem; /* 16px */
+}
+
+.navbar a {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  font-weight: 600;
+  color: #e11d48;
+}
+
+.navbar a:hover {
+  color: #f43f5e;
+}

@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem /* 48px 32px */;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  margin-top: 2rem /* 32px */;
+  font-size: 1.5rem /* 24px */;
+  font-weight: 700;
+  line-height: 1.5rem /* 24px */;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
+
+.form {
+  margin: 1.5rem 0rem /* 24px */;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* 24px */
+}
+
+.input-wrapper {
+  margin-top: 0.5rem /* 8px */;
+}
+
+.input {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.save-btn {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.delete-btn {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+  background-color: #030712;
+}
+
+.delete-btn:hover {
+  background-color: #1f2937;
+}
+
+.alert-message {
+  text-align: center;
+  color: #ea580c;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  font-weight: 600;
+  margin-top: 1rem; /* 16px */
+}

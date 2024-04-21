@@ -1,0 +1,106 @@
+.page-wrapper {
+  display: flex;
+  flex: 1 1 0%;
+  min-height: 100%;
+  background-color: #ffffff;
+}
+
+.sign-up-wrapper {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 1rem; /* 48px 16px */
+}
+
+.sign-up-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 24rem /* 384px */;
+}
+
+.h2 {
+  margin-top: 2rem /* 32px */;
+  font-size: 1.5rem /* 24px */;
+  font-weight: 700;
+  line-height: 1.5rem /* 24px */;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
+
+.link-text {
+  margin-top: 0.5rem /* 8px */;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  color: #6b7280;
+}
+
+.link-a-tag {
+  font-weight: 600;
+  color: #e11d48;
+}
+
+.link-a-tag:hover {
+  color: #f43f5e;
+}
+
+.form-wrapper {
+  margin-top: 2.5rem /* 40px */;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* 24px */
+}
+
+.input-wrapper {
+  margin-top: 0.5rem /* 8px */;
+}
+
+.input {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.button {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.home-link {
+  margin-top: 1rem; /* 40px */
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  text-align: center;
+}
+
+.img-wrapper {
+  position: relative;
+  display: none;
+  width: 0px;
+  flex: 1 1 0%;
+}
+
+.img {
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .sign-up-container {
+    width: 24rem /* 384px */;
+  }
+
+  .img-wrapper {
+    display: block;
+  }
+
+  .sign-up-wrapper {
+    flex: none;
+    padding-left: 5rem; /* 80px */
+    padding-right: 5rem; /* 80px */
+  }
+}

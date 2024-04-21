@@ -1,0 +1,90 @@
+.page-wrapper {
+  display: flex;
+  min-height: 100%;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem /* 48px 32px */;
+  background-color: #f3f4f6;
+}
+
+.heading {
+  margin-top: 1.5rem /* 24px */;
+  text-align: center;
+  font-size: 1.5rem /* 24px */;
+  line-height: 2.25rem /* 36px */;
+  font-weight: 700;
+  letter-spacing: -0.025rem;
+  color: #111827;
+}
+
+.card-wrapper {
+  margin-top: 2.5rem /* 40px */;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 3rem 1.5rem; /* 48px 24px */
+  border-radius: 0.5rem; /* 8x */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* 24px */
+}
+
+.input-wrapper {
+  margin-top: 0.5rem /* 8px */;
+}
+
+.input {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.button {
+  padding: 0.6rem 0.5rem; /* 10px 8px */
+}
+
+.error {
+  text-align: center;
+  color: #ea580c;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  font-weight: 600;
+}
+
+.links-wrapper {
+  margin-top: 2rem /* 32px */;
+  text-align: center;
+}
+
+.links-text {
+  margin-top: 0.5rem /* 8px */;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.5rem /* 24px */;
+  color: #6b7280;
+}
+
+.links-a-tag {
+  font-weight: 600;
+  color: #e11d48;
+}
+
+.links-a-tag:hover {
+  color: #f43f5e;
+}
+
+@media screen and (min-width: 640px) {
+  .card-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .card {
+    padding: 3rem; /* 48px */
+  }
+}
