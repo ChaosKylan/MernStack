@@ -32,18 +32,22 @@ cd MernStack
 ```bash
 cd server
 npm install
-
-Erstelle eine .env-Datei und füge folgende Zeile hinzu:
-MONGODB_URI=Ihre_MongoDB_Verbindungszeichenfolge
-
-Server starten:
-npm start
-👉 Der Server läuft auf http://localhost:5000
 ```
+Erstelle eine .env-Datei und füge folgende Zeile hinzu:
+```bash
+MONGODB_URI=Ihre_MongoDB_Verbindungszeichenfolge
+```
+Server starten:
+```bash
+npm start
+```
+👉 Der Server läuft auf http://localhost:5000
+
 ### 3. Frontend einrichten
 
 ```bash
 cd ../client
 npm install
 npm start
+```
 👉 Die App läuft unter http://localhost:3000
